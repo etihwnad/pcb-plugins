@@ -23,6 +23,8 @@ boardflip: boardflip.so
 	
 distalign: distalign.so
 	
+dxfout: dxfout.so
+	
 findelement: findelement.so
 	
 findrat: findrat.so
@@ -52,6 +54,7 @@ all: \
 	autocrop \
 	boardflip \
 	distalign \
+	dxfout \
 	findelement \
 	findrat \
 	join-found \
@@ -76,6 +79,7 @@ uninstall:
 	rm ~/.pcb/plugins/autocrop.so
 	rm ~/.pcb/plugins/boardflip.so
 	rm ~/.pcb/plugins/distalign.so
+	rm ~/.pcb/plugins/dxfout.so
 	rm ~/.pcb/plugins/findelement.so
 	rm ~/.pcb/plugins/findrat.so
 	rm ~/.pcb/plugins/join-found.so
